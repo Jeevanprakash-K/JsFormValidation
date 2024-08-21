@@ -19,6 +19,7 @@ function validateForm() {
 
   if (email === "") {
     alert("Email must be filled out");
+    flag = false;
   }
 
   var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
@@ -49,6 +50,6 @@ function validateForm() {
   }
 
   if (flag == true) {
-    alert("Success");
+    alert("Registration Complete");
   }
 }
