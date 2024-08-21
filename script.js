@@ -14,7 +14,7 @@ function validateForm() {
 
   if (lname === "") {
     alert("Last Name must be filled out");
-    flag = false
+    flag = false;
   }
 
   if (email === "") {
@@ -48,7 +48,7 @@ function validateForm() {
     flag = false;
   }
 
-  if(flag == true){
+  if (flag == true) {
     alert("Success");
   }
 }
